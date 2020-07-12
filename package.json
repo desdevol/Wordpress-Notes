@@ -10,7 +10,7 @@
   "repository": "/wordpress-notes",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs && sudo rm -r prod/* && cp -r docs/.vuepress/dist/* prod/"
   },
   "license": "MIT",
   "devDependencies": {
