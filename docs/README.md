@@ -2,8 +2,8 @@
 home: true
 heroImage: wp.png
 tagline: Personal Wordpress quick tips and notes
-actionText: See Docs →
-actionLink: /notes/
+actionText: See Guides →
+actionLink: /guides/
 # features:
 #   - title: Guides
 #     details: Feature 1 Description
