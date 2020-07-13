@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: wp.png
 tagline: Personal Wordpress quick tips and notes
-actionText: Quick Start →
-actionLink: /guide/
-features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by Desdevol with ❤️
+actionText: See Docs →
+actionLink: /notes/
+# features:
+#   - title: Guides
+#     details: Feature 1 Description
+#   - title: Feature 2 Title
+#     details: Feature 2 Description
+#   - title: Feature 3 Title
+#     details: Feature 3 Description
+footer: Made by Desdevol 🦦
 ---
