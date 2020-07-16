@@ -43,10 +43,6 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    // algolia: {
-    //   apiKey: process.env.ALGOLIA_API_KEY,
-    //   indexName: process.env.ALGOLIA_INDEX_NAME
-    // },
     nav: [{
         text: 'Guides',
         link: '/guides/',
@@ -65,7 +61,8 @@ module.exports = {
           'child-theme-support',
           'develop-theme',
           'create-plugin',
-          'api-integration'
+          'api-integration',
+          'create-widget'
         ]
       }],
       '/tips/': [{
