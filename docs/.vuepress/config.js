@@ -73,6 +73,7 @@ module.exports = {
                         "create-wp-plugin-with-vue",
                         "api-integration",
                         "create-widget",
+                        "wpml",
                     ],
                 },
             ],
