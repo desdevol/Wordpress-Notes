@@ -74,6 +74,7 @@ module.exports = {
                         "api-integration",
                         "create-widget",
                         "wpml",
+                        "elementor",
                     ],
                 },
             ],
