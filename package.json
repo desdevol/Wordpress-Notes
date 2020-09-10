@@ -1,25 +1,26 @@
 {
-  "name": "wordpress-notes",
-  "version": "0.0.1",
-  "description": "Personal Wordpress quick tips and notes",
-  "main": "index.js",
-  "authors": {
-    "name": "Desdevol",
-    "email": ""
-  },
-  "repository": "/wordpress-notes",
-  "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs && sudo rm -r prod/* && cp -r docs/.vuepress/dist/* prod/"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.3.1",
-    "@vuepress/plugin-medium-zoom": "^1.3.1",
-    "vuepress": "^1.3.1",
-    "vuepress-plugin-flexsearch": "^0.1.0"
-  },
-  "resolutions": {
-    "watchpack": "1.6.1"
-  }
+    "name": "wordpress-notes",
+    "version": "0.0.1",
+    "description": "Personal Wordpress quick tips and notes",
+    "main": "index.js",
+    "authors": {
+        "name": "Desdevol",
+        "email": ""
+    },
+    "repository": "/wordpress-notes",
+    "scripts": {
+        "dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs",
+        "build": "vuepress build docs && sudo rm -r prod/* && cp -r docs/.vuepress/dist/* prod/"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@vuepress/plugin-back-to-top": "^1.3.1",
+        "@vuepress/plugin-medium-zoom": "^1.3.1",
+        "vuepress": "^1.3.1",
+        "vuepress-plugin-flexsearch": "^0.1.0"
+    },
+    "resolutions": {
+        "watchpack": "1.6.1"
+    }
 }
