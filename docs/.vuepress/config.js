@@ -82,7 +82,11 @@ module.exports = {
                 {
                     title: "Tips",
                     collapsable: false,
-                    children: ["json-print-pretty", "add-widget-everywhere"],
+                    children: [
+                        "",
+                        "json-print-pretty",
+                        "add-widget-everywhere",
+                    ],
                 },
             ],
         },
