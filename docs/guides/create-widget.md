@@ -4,7 +4,7 @@ For more detail widget guide visit the link below, this guide is just for simple
 
 [Source: WPExplorer](https://www.wpexplorer.com/create-widget-plugin-wordpress/)
 
-1. **Create a plugin.** (![See here](./create-plugin))
+1. **Create a plugin.** ([See here](./create-plugin))
 2. **Add the following code**:
 
 ```php
